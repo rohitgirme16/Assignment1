@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my first website">
+        <title>Assignment 1</title>
+        <link href="https://www.w3schools.com/">
+    </head>
+
+    <body>
+        <main>
+        <article>
+            <header>
+            <a href="https://www.justdial.com/Satara/Borawake-Honda-Jinti-Bridge-Phaltan/9999P2162-2162-130530172706-T8S6_BZDET" target="_blank"><h1>Borawake Honda</h1></a>
+        </header><hr>
+        
+        <hgroup>
+            <h1><i>Hi, Myself <mark>Hemant Vijayrao Borawake.</mark></i></h1>
+            <h2>I'm the owner of Borawake Honda, Phaltan.</h2>
+            <h3>Our only aim is to provide our customers best service.</h3>
+            <h4>We hope you would visit us once.</h4>
+            <h5>And we serve you the best service.</h5>
+            <h6>Hope you have a wonderful day.</h6>
+        </hgroup><hr>
+            <p>"<kbd>Borawake Honda</kbd>" is a dealership of Honda Two-Wheelers India in Phaltan.<br>
+                The owner of Borawake Honda Phaltan is <b>"<kbd>Hemant Vijayrao Borawake</kbd>"</b>.</p>
+        </article>
+        </main>
+        <br><hr>
+
+        <section>
+            <h1>Welcome to Our Website</h1>
+            <p>Welcome and thank you for taking the time to visit our website.</p>
+        </section><hr>
+
+        <address>
+            <cite>Contact us at: </cite><a href="call phone number 095457 71111 ">095457 71111</a><br>
+            2C2F+886, Jinti Road, ​Pune - Pandharpur Rd, Phaltan,<br>
+            Maharashtra, 415523
+            Our Google <a href="https://www.google.com/maps/place/Borawake+Honda/@17.9530571,74.3380822,11z/data=!4m6!3m5!1s0x3bc3a541f7cde59f:0xb86139a1f8c10e1d!8m2!3d18.0007846!4d74.4232643!16s%2Fg%2F11cs68bx36?entry=ttu" target="_blank">Maps link.</a>
+        </address><br>
+
+        <audio controls="controls" src="./motorcycle-start-and-idle-01.mp3">
+            Your browser does not support the HTML5 audio element.
+        </audio>
+
+        <p>New Launches</p>
+            <style>
+                data:hover::after {
+                    content: ' (ID ' attr(value) ')';
+                    font-size: .7em;
+                }
+            </style>
+    <ul>
+        <li><data value="1234">Activa 7G</data></li>
+        <li><data value="1235">Hornet 2.0</data></li>
+        <li><data value="1236">Shine 100cc</data></li>
+    </ul>
+	<p><strong>Note:</strong> Place the mouse pointer over the list item to see how it actually works.</p>
+
+    <h4>Bikes having more options:</h4>
+    <dl>
+        <dt>Activa</dt>
+        <dd>– Activa 7G(new launch)</dd>
+        <dd><ins>– Activa 6G</ins></dd>
+        <dd><del>– Activa 5G</del></dd>
+        
+        <dt>Shine</dt>
+        <dd>– Shine 100cc(new launch)</dd>
+        <dd>– Shine SP</dd>
+    </dl>
+
+    <form>
+        <select>
+            <optgroup label="Activa">
+                <option value="activa7g">Activa 7G</option>
+                <option value="activa6g">Activa 6G</option>
+            </optgroup>
+            <optgroup label="Shine">
+                <option value="shine100">Shine 100cc</option>
+                <option value="shinesp">Shine SP</option>
+            </optgroup>
+        </select>
+        <select>
+            <option value="hornet2.0">Hornet 2.0</option>
+            <option value="livo">Livo</option>
+           <option value="cb200x">CB 200X</option>
+        </select>
+    </form><br>
+
+    <form action="" method="post">
+        <p>
+            <legend>Book a test drive:-</legend>
+            First name: <input type="text" name="first-name"><br><br>
+            Last name: <input type="text" name="last-name"><br><br>
+            <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="others" id="female">
+            <label for="others">Others</label>
+            </fieldset><br>
+            Enter vehicle name:
+	<form action="/examples/html5/demo_datalist.php" method="post">
+		<input type="text" list="bikes" name="vehicle_name">
+		<datalist id="bikes">
+            <option value="Activa 7G">
+            <option value="Hornet 2.0">   
+            <option value="Shine 100cc">
+            <option value="Livo">
+            <option value="Shine SP">
+        </datalist><br><br>
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset" value="Reset">Reset</button>
+            </p>
+        </form>
+
+        <h2>Task Progress</h2>
+	<p>Progress: <progress id="bar" value="0" max="100"><span>0</span>%</progress></p>
+	<script type="text/javascript">
+		var i = 0;
+		var progressBar = document.getElementById("bar");
+		function countNumbers(){
+			if(i < 100){
+				i = i + 1;
+				progressBar.value = i;
+				// For browsers that don't support progress tag
+				progressBar.getElementsByTagName("span")[0].textContent = i;
+			}
+			// Wait for sometime before running this script again
+			setTimeout("countNumbers()", 500);
+		}
+		countNumbers();
+	</script>
+
+            <table border="1px">
+                <colgroup>
+                    <col style="background-color:#f49d3a;">
+                    <col span="2" style="background-color:#f0e68c;">
+                    <col span="2" style="background-color:#f49d3a;">
+                </colgroup>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Post</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Hemant Borawake</td>
+                    <td>hemantborawake11@gmail.com</td>
+                    <td>Owner,CEO</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Peter Parker</td>
+                    <td>peterparker@mail.com</td>
+                    <td>Manager 1</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>John Rambo</td>
+                    <td>johnrambo@mail.com</td>
+                    <td>Manager 2</td>
+                </tr>
+            </table><br>
+
+            <details>
+                <summary>Why to visit us?</summary>
+                <p>We offer best service. Selling rate is reasonable.</p>
+            </details>
+            <details>
+                <summary>Why to use Honda two wheeler?</summary>
+                <p>Because Honda two wheelers has <em>low maintaince with best performance</em>. <a href="https://www.credr.com/blog/why-honda-motorcycles-are-the-best-choice-for-transportation/#:~:text=Honda%20motorcycles%20are%20renowned%20for,best%20Honda%20motorcycles%20for%20families." target="_blank">Learn more.</a></p>
+            </details>
+            
+            <div id="imgBox">
+                <p><img src="./7109932.jpg" alt="msi wallpaper" width="150" height="100"></p>
+                <button type="button" onclick="confirmDelete();">Delete image</button>
+            </div>
+        
+            <dialog id="confirmDialog">
+                <p>Are you sure you want to delete this item?</p>
+                <button type="button" onclick="deleteImage();">Yes</button>
+                <button type="button" onclick="hideDialog();">No</button>
+            </dialog>
+        
+            <script>
+                var dialog = document.getElementById("confirmDialog");
+                var img = document.getElementById("imgBox");
+        
+                function confirmDelete() {
+                    if(typeof dialog.showModal === "function") {
+                        dialog.showModal();
+                    } else {
+                        alert("Your browser does not support dialog element!");
+                    }
+                }
+        
+                function deleteImage() {        
+                    img.parentNode.removeChild(img);
+                    dialog.close();
+                    document.write("Image has been deleted!");
+                }
+        
+                function hideDialog() {
+                    dialog.close();
+                }
+            </script><br>
+
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/KlW5VkbiMJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+       </iframe><br>
+
+       <object type="application/x-shockwave-flash">
+        <param name="movie" value="/examples/video/blur.swf">
+    </object>
+
+       <figure>
+		<img src="./download.jfif" alt="Activa 7G">
+		<figcaption>Activa 7G</figcaption>
+	</figure>
+
+    <p>Activa Sales: <meter value="0.8">80%</meter></p>
+	<p>Shine Sales: <meter value="6" min="0" max="10">6 out of 10</meter></p>
+	<p>Hornet Sales: <meter low="60" high="80" max="100" value="85">Very High</meter></p>
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="range" id="a" value="50"> +
+		<input type="number" id="b" value="100"> =
+		<output name="result" for="a b"></output>
+	</form>
+
+    <p>Here is some <s>strikethrough</s> text.</p>
+
+    <ruby>
+        <style type="text/css">
+            ruby{
+                font-size: 36px;
+            }
+        </style>
+    	&#28450; <rp>(</rp><rt>Borawake</rt><rp>)</rp>
+        &#23383; <rp>(</rp><rt>Honda</rt><rp>)</rp>
+    </ruby><br><br>
+
+    <script type="text/javascript">
+    document.write("Thank You!");
+    </script>
+
+<p>The equation of mass-energy equivalence is: E=mc<sup>2</sup></p>
+
+<svg viewBox="0 0 200 200" width="400"  height="400">
+    <!-- Face -->
+    <circle cx="100" cy="100" fill="yellow" r="78" stroke="black" stroke-width="3" />
+    <g>
+        <!-- Left eye -->
+        <circle cx="65" cy="82" r="12" />
+        <!-- Right Eye -->
+        <circle cx="130" cy="82" r="12" />
+    </g>
+    <!-- Smile -->
+    <path d="M65 115 a1,0.8 0 0,0 65,0" fill="none" stroke="black" stroke-width="3" />
+</svg>
+
+<video controls="controls">
+    <source src="./GodFather.mkv" type="video/mp4" width="560" height="315">
+    <source src="./GodFather.mkv" type="video/ogg" width="560" height="315">
+    <track src="./GodFather.mkv" kind="subtitles" srclang="en" label="English" width="560" height="315">
+    Your browser does not support the HTML5 Video element.
+</video>
+
+    <footer>
+		<nav>
+			<p>
+				<a href="https://www.justdial.com/Satara/Borawake-Honda-Jinti-Bridge-Phaltan/9999P2162-2162-130530172706-T8S6_BZDET">Terms of Use</a> |
+				<a href="https://www.justdial.com/Satara/Borawake-Honda-Jinti-Bridge-Phaltan/9999P2162-2162-130530172706-T8S6_BZDET">Privacy Policy</a>
+			</p>
+		</nav>
+		<p>Copyright &copy; Rohit Girme</p>
+	</footer>
+
+    <strong>Note:</strong><p>If the browser display an error message such as "<samp>HTTP 404 - File not found</samp>" you may simply have typed the incorrect url address.</p>
+
+    </body>
+</html>
